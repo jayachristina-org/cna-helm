@@ -61,7 +61,7 @@ prometheus:
     channel: beta
     installPlanApproval: Automatic
     name: prometheus-operator
-    source: redhat-operators
+    source: community-operators
     sourceNamespace: openshift-marketplace
     argocd:
       enabled: true
